@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>eruto</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0d0d0d;
+      color: #e0e0e0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      max-width: 600px;
+      width: 100%;
+      padding: 2rem;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 0.5rem;
+    }
+
+    h1 span {
+      color: #a78bfa;
+    }
+
+    .tagline {
+      font-size: 1.1rem;
+      color: #888;
+      margin-bottom: 2.5rem;
+      line-height: 1.6;
+    }
+
+    .section-title {
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #a78bfa;
+      margin-bottom: 0.75rem;
+    }
+
+    .projects {
+      margin-bottom: 2.5rem;
+    }
+
+    .project {
+      display: block;
+      padding: 1rem 1.25rem;
+      margin-bottom: 0.5rem;
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 8px;
+      text-decoration: none;
+      color: #e0e0e0;
+      transition: border-color 0.2s, background 0.2s;
+    }
+
+    .project:hover {
+      border-color: #a78bfa;
+      background: #1f1a2e;
+    }
+
+    .project-name {
+      font-weight: 600;
+      color: #fff;
+      margin-bottom: 0.25rem;
+    }
+
+    .project-desc {
+      font-size: 0.85rem;
+      color: #888;
+    }
+
+    .links {
+      display: flex;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+
+    .links a {
+      color: #888;
+      text-decoration: none;
+      font-size: 0.9rem;
+      transition: color 0.2s;
+    }
+
+    .links a:hover {
+      color: #a78bfa;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1><span>eruto</span></h1>
+    <p class="tagline">Web developer building tools and games.</p>
+
+    <div class="projects">
+      <div class="section-title">Projects</div>
+      <a class="project" href="https://countstack.erutobusiness.workers.dev/" target="_blank" rel="noopener">
+        <div class="project-name">countstack</div>
+        <div class="project-desc">Counting app</div>
+      </a>
+      <a class="project" href="https://github.com/eruto-skills" target="_blank" rel="noopener">
+        <div class="project-name">eruto-skills</div>
+        <div class="project-desc">Open-source skills for Claude Code</div>
+      </a>
+    </div>
+
+    <div class="section-title">Links</div>
+    <div class="links">
+      <a href="https://github.com/erutobusiness" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://ko-fi.com/eruto" target="_blank" rel="noopener">Ko-fi</a>
+    </div>
+  </div>
+</body>
+</html>
