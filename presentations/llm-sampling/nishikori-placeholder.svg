@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420" fill="none" stroke="#ffffff" stroke-width="11" stroke-linecap="round" stroke-linejoin="round">
+  <!-- 汎用テニス選手シルエット（振り上げスイング）。実写に差し替える場合は
+       同名で public に画像を置き、HookScene の src を変更する（肖像権・著作権は発表者判断） -->
+  <!-- 頭 -->
+  <circle cx="206" cy="96" r="34" />
+  <!-- 胴 -->
+  <path d="M206 132 L192 240" />
+  <!-- ラケット側の腕（右上へ振り上げ） -->
+  <path d="M202 158 L282 100" />
+  <!-- ラケットの柄 -->
+  <path d="M282 100 L318 64" />
+  <!-- ラケット面 -->
+  <ellipse cx="342" cy="44" rx="32" ry="44" transform="rotate(40 342 44)" />
+  <!-- 反対側の腕 -->
+  <path d="M202 166 L134 198" />
+  <!-- 脚（踏み込み） -->
+  <path d="M192 240 L142 330" />
+  <path d="M192 240 L244 324" />
+  <!-- テニスボールと軌道 -->
+  <circle cx="366" cy="128" r="13" fill="#ffffff" stroke="none" />
+  <path d="M326 168 Q350 146 360 138" stroke-width="7" opacity="0.6" />
+</svg>
