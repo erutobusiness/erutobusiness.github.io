@@ -1,0 +1,2 @@
+# sh hook は CRLF になると動かないため LF 固定
+.githooks/* text eol=lf
